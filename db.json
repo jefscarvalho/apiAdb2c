@@ -1,11 +1,14 @@
 {
-  "all": [
-    {
-  "version":"1.000",
-  "status": 409,
-  "developerMessage": "usernameLegacy invalid or not exist",
-  "userMessage": "Ops, não encontrei o seu usuário para concluir o recadastramento.<br />Tente novamente em instantes ou entre em contato com a <a href='https://souionica.com.br/sac' target='_blank'>Central de Relacionamento</a> e informe o código: ADM02",
-  "code": "ADM02"
-    }
-    ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
